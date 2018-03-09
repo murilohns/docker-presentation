@@ -1,0 +1,6 @@
+version: '3'
+services:
+  pagarme_checkout: 
+    image: 'murilohns/pagarme-checkout:latest'
+    ports:
+      - "3002:80"
