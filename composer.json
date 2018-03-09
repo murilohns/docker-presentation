@@ -1,0 +1,12 @@
+{
+    "name": "murilosouza/checkout",
+    "authors": [
+        {
+            "name": "Murilo Henrique",
+            "email": "murilohns@gmail.com"
+        }
+    ],
+    "require": {
+        "pagarme/pagarme-php": "^3.7.1"
+    }
+}
