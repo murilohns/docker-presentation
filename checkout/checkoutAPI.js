@@ -8,7 +8,6 @@
     // INICIAR A INSTÂNCIA DO CHECKOUT
     // declarando um callback de sucesso
     var checkoutAPI = new PagarMeCheckout.Checkout({"encryption_key":"ek_test_XrkRVobUGGTtvafcLGfoxPmNg5dnSD", success: function(data) {
-        console.log(data);
         $.ajax({
           type: "POST",
           url: "../capture/capture.php",

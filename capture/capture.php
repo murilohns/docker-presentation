@@ -97,9 +97,8 @@ if($version == 3){
         echo $subscription->getStatus();
     }else{ 
         $transaction = $pagarMe->transaction()->get($token);
-        $captureAmount = $amount;
 
-        $pagarMe->transaction()->capture($transaction, $captureAmount);
+        $pagarMe->transaction()->capture($transaction, $amount);
 
         $transaction = $pagarMe->transaction()->get($transaction->getId());
 

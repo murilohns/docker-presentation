@@ -3,6 +3,7 @@
         <title>Checkout Options</title>
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Revalia">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     </head>
     <body>
     	<main>
