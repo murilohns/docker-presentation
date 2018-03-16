@@ -22,7 +22,7 @@
     });
 
     checkout.open({
-      amount: 8000,
+      amount: 1000,
       createToken: 'true',
       paymentMethods: 'boleto, credit_card',
       customerData: "false",
